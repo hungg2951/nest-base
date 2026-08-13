@@ -4,7 +4,6 @@ import { AppService } from './app.service';
 import { ShopifyModule } from './shopify/shopify.module';
 import { BullModule } from '@nestjs/bullmq';
 import { ShopModule } from './shop/shop.module';
-import { PromptTemplateModule } from './prompt-template/prompt-template.module';
 import { AuthModule } from './auth/auth.module';
 import { UsersModule } from './users/users.module';
 
@@ -18,7 +17,6 @@ import { UsersModule } from './users/users.module';
     }),
     ShopifyModule,
     ShopModule,
-    PromptTemplateModule,
     AuthModule,
     UsersModule,
   ],

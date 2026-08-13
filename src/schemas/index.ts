@@ -2,7 +2,6 @@
 // Import this array in the runner to sync all tables at once.
 
 import { shopTable } from './shop.schema.js';
-import { promptTemplateTable } from './prompt-template.schema.js';
 import { userTable } from './user.schema.js';
 import { refreshTokenTable } from './refresh-token.schema.js';
 
@@ -14,7 +13,6 @@ import type { TableSchema } from '../database/schema/types.js';
  */
 export const allSchemas: TableSchema[] = [
   shopTable,
-  promptTemplateTable,
   userTable,
   refreshTokenTable,
 ];
